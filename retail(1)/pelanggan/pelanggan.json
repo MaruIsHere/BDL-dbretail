@@ -1,0 +1,30 @@
+[
+    {
+        "id_pelanggan": "P001",
+        "nama_pelanggan": "Made",
+        "alamat_pelanggan": "Jalan Tukad Pakerisan",
+        "tlp_pelanggan": "08372982681",
+        "pekerjaan": "swasta"
+    },
+    {
+        "id_pelanggan": "P002",
+        "nama_pelanggan": "Wayan",
+        "alamat_pelanggan": "Jalan Tukad Pakerisan II",
+        "tlp_pelanggan": "08372347839",
+        "pekerjaan": "programmer"
+    },
+    {
+        "id_pelanggan": "P003",
+        "nama_pelanggan": "Komang",
+        "alamat_pelanggan": "Jalan Tukad Pakerisan III",
+        "tlp_pelanggan": "08377367462",
+        "pekerjaan": "designer"
+    },
+    {
+        "id_pelanggan": "517235",
+        "nama_pelanggan": "Maru",
+        "alamat_pelanggan": "denpasar",
+        "tlp_pelanggan": "0208308324",
+        "pekerjaan": "desain"
+    }
+]

@@ -1,7 +1,7 @@
 <?php
 
-$file = "mahasiswa.json";
+$file = "pelanggan.json";
 
-$anggota = file_get_contents($file);
+$pelanggan = file_get_contents($file);
 
 ?>

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +11,14 @@
 
     <div class="container">
         <div class="row">
+            <a href="add_data_view.php" class=" btn btn-primary">Tambah Data</a>
+        </div>
+
+
+        <div class="row">
 
             <div class="col-12">
+                
                 <table class="table">
                     <thead>
                         <tr>
@@ -23,22 +27,25 @@
                             <th>Alamat</th>
                             <th>Tlp</th>
                             <th>Pekerjaan</th>
+                            <th>Action</th>
+                         
                         </tr>
                     </thead>
                     <tbody>
                         <?php
                         $file = file_get_contents('pelanggan.json');
                         $data_pelanggan = json_decode($file);
-                        foreach($data_pelanggan as $pelanggan){
-                            echo '<tr>';
-                            echo '<td>'. $pelanggan->id_pelanggan. '</td>';
-                            echo '<td>'. $pelanggan->nama_pelanggan. '</td>';
-                            echo '<td>'. $pelanggan->alamat_pelanggan. '</td>';
-                            echo '<td>'. $pelanggan->tlp_pelanggan. '</td>';
-                            echo '<td>'. $pelanggan->pekerjaan. '</td>';
-                            echo '</tr>';
-                        }
-                        ?>
+                        foreach($data_pelanggan as $key =>$pelanggan) { ?>
+                            <tr>
+                            <td> <?php  echo $pelanggan->id_pelanggan ?> </td>
+                            <td> <?php  echo $pelanggan->nama_pelanggan ?> </td>
+                            <td> <?php  echo $pelanggan->alamat_pelanggan ?> </td>
+                            <td> <?php  echo $pelanggan->tlp_pelanggan ?> </td>
+                            <td> <?php  echo $pelanggan->pekerjaan ?> </td>
+                            <td><a href="update_data_view.php?key=<?php echo $key; ?>"; class="btn btn-success text-light">Update</a></td>
+                            <td><a href="delete.php?key=<?php echo $key; ?>" class="btn btn-danger text-light">Delete</a></td>
+                            </tr>
+                       <?php } ?>
                     </tbody>
                 </table>
             </div>

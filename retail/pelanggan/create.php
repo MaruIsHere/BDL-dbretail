@@ -1,6 +1,6 @@
 <?php
 
-$data_pelanggan [] = array(
+$data_pelanggan[] = array(
                     'id_pelanggan' => 'P001',
                     'nama_pelanggan' => 'Made',
                     'alamat_pelanggan' => 'Jalan Tukad Pakerisan',
@@ -9,7 +9,7 @@ $data_pelanggan [] = array(
 );
 
 
-$data_pelanggan [] = array(
+$data_pelanggan[] = array(
                     'id_pelanggan' => 'P002',
                     'nama_pelanggan' => 'Wayan',
                     'alamat_pelanggan' => 'Jalan Tukad Pakerisan II',
@@ -17,7 +17,7 @@ $data_pelanggan [] = array(
                     'pekerjaan' => 'programmer'
 );
 
-$data_pelanggan [] = array(
+$data_pelanggan[] = array(
                     'id_pelanggan' => 'P003',
                     'nama_pelanggan' => 'Komang',
                     'alamat_pelanggan' => 'Jalan Tukad Pakerisan III',

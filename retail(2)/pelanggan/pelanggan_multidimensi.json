@@ -1,0 +1,15 @@
+[
+    {
+        "id_pelanggan": "P001",
+        "nama_pelanggan": {
+            "nama_depan": "made",
+            "nama_belakang": "sandhiyasa"
+        },
+        "alamat_pelanggan": {
+            "alamat_ktp": "Jalan Tukad Pakerisan",
+            "alamat_domisil": "jalan gutita III"
+        },
+        "tlp_pelanggan": "08372982681",
+        "pekerjaan": "swasta"
+    }
+]
